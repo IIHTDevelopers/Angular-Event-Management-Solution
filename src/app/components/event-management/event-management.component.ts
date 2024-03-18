@@ -6,7 +6,7 @@ import { Feedback } from '../../models/feedback.model';
 @Component({
   selector: 'app-event-management',
   templateUrl: './event-management.component.html',
-  styleUrls: ['./event-management.component.scss']
+  styleUrls: ['./event-management.component.css']
 })
 export class EventManagementComponent {
   event: Event = { name: '', date: '', time: '', venue: '' };
